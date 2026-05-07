@@ -2,8 +2,6 @@
 
 import random
 
-print(" Welcome to Guess the numbre")
-
 number = random.randint(1,100)
 
 while True:
