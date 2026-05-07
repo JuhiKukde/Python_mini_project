@@ -5,8 +5,8 @@ import random
 number = random.randint(1,100)
 
 while True:
-    userChoice = input("Guess the Number  or Quite :  ")
-    if(userChoice == "Exit"):
+    userChoice = input("Guess the Number  or Quit :  ")
+    if(userChoice == "Quit"):
         break
 
     userChoice = int(userChoice)
